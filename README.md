@@ -47,7 +47,7 @@ The proposed architecture is completely python based that has minimized the effo
 <p align="center">
   <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/first.gif">
 </p>
-The above result is the output of <strong>Stage</strong> 2 {META EXTRACTION} which takes around __56 seconds to process 19 excel files of 1.1 GB__.This time varies between __50 to 60 seconds__ depending upon the current load on the system.
+The above result is the output of <strong>Stage2 {META EXTRACTION}</strong>  which takes around <strong>56 seconds to process 19 excel files of 1.1 GB</strong>.This time varies between <strong>50 to 60 seconds</strong> depending upon the current load on the system.
 
 > DATA EXTRACTION
 <p align="center">
