@@ -39,12 +39,12 @@ The proposed architecture is completely python based that has minimized the effo
 
 > META EXTRACTION
 <p align="center">
-  <img width="600" height="300" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/first.gif">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/first.gif">
 </p>
 
 > DATA EXTRACTION
 <p align="center">
-  <img width="600" height="300" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/second.gif">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/second.gif">
 </p>
 
 
