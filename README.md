@@ -38,7 +38,7 @@ The proposed architecture is completely python based that has minimized the effo
 ### STAGE 2
 
 > META EXTRACTION
-<img alt="first" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/first.gif"/>
+<img align="center" width="250" height="100" alt="first" src="https://github.com/srvk99/ETL_Tool/blob/master/gifs/first.gif"/>
 
 > DATA EXTRACTION
 <img alt="second" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/second.gif"/>
