@@ -35,6 +35,10 @@ The proposed architecture is completely python based that has minimized the effo
 <img alt="HDL" src="https://github.com/srvk-99/ETL_Tool/blob/master/images/HDL.png"/>
 
 ## MVP RESULTS
+<img alt="first" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/first.gif"/>
+
+<img alt="second" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/second.gif"/>
+
 
 
 
