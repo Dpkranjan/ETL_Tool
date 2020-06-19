@@ -1,0 +1,16 @@
+multiprocessing
+mysql==0.0.2
+mysql-connector-python==8.0.19
+mysqlclient==1.4.6
+pandas
+xlsx2csv
+datetime
+schedule
+time
+regex
+copy
+PyExcelerate
+xlrd
+numpy
+openpyxl
+
