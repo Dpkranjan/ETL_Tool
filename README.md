@@ -72,7 +72,7 @@ The proposed architecture is completely python based that has minimized the effo
 
 ### AWS RDS DB Table creation
 <p align="center">
-  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/db%20initialisation/dbInitialOutput.png">
+  <img  src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/db%20initialisation/dbInitialOutput.png">
 </p>
 
 ### Python script first.py
@@ -92,7 +92,7 @@ The proposed architecture is completely python based that has minimized the effo
 </p>
 > Output and time required:
 <p align="center">
-  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/second/second%20time%20taken.png">
+  <img  src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/second/second%20time%20taken.png">
 </p>
 > Excel file AnalystData
 <p align="center">
@@ -111,7 +111,7 @@ The proposed architecture is completely python based that has minimized the effo
 </p>
 > Output and time required:
 <p align="center">
-  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/third/third%20time%20taken.png">
+  <img  src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/third/third%20time%20taken.png">
 </p>
 
 ### Python script fourth.py
@@ -126,7 +126,7 @@ The proposed architecture is completely python based that has minimized the effo
 
 > Output and time required:
 <p align="center">
-  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/fourth/fourth%20time%20output.png">
+  <img  src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/fourth/fourth%20time%20output.png">
 </p>
 
 
