@@ -54,10 +54,10 @@ The proposed architecture is completely python based that has minimized the effo
 
 
 * <strong>third.py</strong> : This python script runs which extracts all the data from *data sheets* of the excel file
-> python3 second.py
+> python3 third.py
 
-* <strong>fourth.py</strong> : This python script runs which extracts all the required data, excel file is created and the *AnalystData* table is also filled on AWS RDS
-> python3 second.py
+* <strong>fourth.py</strong> : This python script runs which extracts all the required data, excel file is created and the *Data* table is also filled on AWS RDS
+> python3 fourth.py
 
 ## MVP RESULTS
 ### STAGE 2
