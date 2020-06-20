@@ -36,7 +36,8 @@ The proposed architecture is completely python based that has minimized the effo
 <img alt="HDL" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/hdl%20update.png"/>
 
 ## HOW TO USE THE TOOL 
-* *<strong>datasets folder</strong>*: Here RAW datafiles are stored through a SFTP server.
+> git clone https://github.com/srvk-99/ETL_Tool.git
+> <strong>datasets folder</strong> : Here RAW datafiles are stored through a SFTP server.
 * Then *first.py* script runs which converts all the files into meta files (this step is the key step to make the process faster)
 * Then *second.py* script runs which extracts all the required data and then the excel files are created.
 * The output excel file data is then transferred to the database as well as processed output of the *data sheet* file
