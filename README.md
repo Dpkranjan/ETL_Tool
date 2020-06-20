@@ -60,7 +60,83 @@ The proposed architecture is completely python based that has minimized the effo
 > python3 fourth.py
 
 ## MVP RESULTS
-### STAGE 2
+### EC2 Instance
+<p align="center">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/second/ec2%20instances.png">
+</p>
+
+### AWS RDS
+<p align="center">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/second/AWS%20RDS.png">
+</p>
+
+### AWS RDS DB Table creation
+<p align="center">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/db%20initialisation/dbInitialOutput.png">
+</p>
+
+### Python script first.py
+> python3 first.py
+<p align="center">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/first/first.gif">
+</p>
+> Output and time required:
+<p align="center">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/first/first%20code%20timimg">
+</p>
+
+### Python script second.py
+> python3 second.py
+<p align="center">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/second/second%20time.gif">
+</p>
+> Output and time required:
+<p align="center">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/second/second%20time%20taken.png">
+</p>
+> Excel file AnalystData
+<p align="center">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/second/excel%20file%20analyst%20data.png">
+</p>
+> MySQL DB AnalystData Table
+<p align="center">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/second/sqldb%20analyst%20data.png">
+</p>
+
+
+### Python script third.py
+> python3 third.py
+<p align="center">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/third/third.gif">
+</p>
+> Output and time required:
+<p align="center">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/third/third%20time%20taken.png">
+</p>
+
+### Python script fourth.py
+> python3 fourth.py
+<p align="center">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/fourth/fourth.gif">
+</p>
+> Logs
+<p align="center">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/fourth/fourth%20logging%20output.png">
+</p>
+
+> Output and time required:
+<p align="center">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/fourth/fourth%20time%20output.png">
+</p>
+
+
+> MySQL DB Data Table 
+<p align="center">
+  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/fourth/mysqldb%20output.png">
+</p>
+
+***********************************************************
+
 
 > META EXTRACTION
 <p align="center">
