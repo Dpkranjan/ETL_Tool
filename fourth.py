@@ -16,14 +16,14 @@ PASSWORD=os.environ['RDS_PASS']
 
 def data_extractor(folder,file,count,pos):
     reqd_header={'Date', 'FacilityType', 'BedSize', 'Region', 'Manufacturer', 'Ticker', 'Group', 'Therapy', 'Anatomy','SubAnatomy', 'ProductCategory', 'Quantity', 'AvgPrice', 'TotalSpend'}
-    dataset = pd.read_csv("/home/sourav/Desktop/WORK/Coss_internship/MAIN_PROJECT/META_FILES1/Data/"+str(folder)+"/"+str(file),low_memory=False,nrows=1, warn_bad_lines=False).columns
+    dataset = pd.read_csv("META_FILES1/Data/"+str(folder)+"/"+str(file),low_memory=False,nrows=1, warn_bad_lines=False).columns
     header=dataset.values.tolist()
     headers=set(header)
     y=reqd_header.intersection(headers)
     heads=[]
     if(len(y)==14):
         heads=list(y)
-        dataset1 = pd.read_csv("/home/sourav/Desktop/WORK/Coss_internship/MAIN_PROJECT/META_FILES1/Data/"+str(folder)+"/"+str(file),low_memory=False,usecols=heads, warn_bad_lines=False)
+        dataset1 = pd.read_csv("META_FILES1/Data/"+str(folder)+"/"+str(file),low_memory=False,usecols=heads, warn_bad_lines=False)
         l=dataset1.iloc[count-pos:count,:]
         l=l[list(reqd_header)]
         l.fillna("NA",inplace=True)
@@ -33,7 +33,7 @@ def data_extractor(folder,file,count,pos):
         na_column=["NA"]*pos
         left_columns=tuple(reqd_header-y)
         heads=list(y)
-        dataset1 = pd.read_csv("/home/sourav/Desktop/WORK/Coss_internship/MAIN_PROJECT/META_FILES1/Data/"+str(folder)+"/"+str(file),low_memory=False,usecols=heads, warn_bad_lines=False)
+        dataset1 = pd.read_csv("META_FILES1/Data/"+str(folder)+"/"+str(file),low_memory=False,usecols=heads, warn_bad_lines=False)
         l=dataset1.iloc[count-pos:count,:]
         for column in left_columns:
             l.loc[:,column]=na_column
@@ -44,7 +44,7 @@ def data_extractor(folder,file,count,pos):
         return(tuples)
 
 def DataPos(file,folder):
-    path="/home/sourav/Desktop/WORK/Coss_internship/MAIN_PROJECT/META_FILES1/Data/"+str(folder)+"/"+str(file)
+    path="META_FILES1/Data/"+str(folder)+"/"+str(file)
     dataset = pd.read_csv(path,low_memory=False, usecols=[0],warn_bad_lines=False)
     dataset=dataset.values.tolist()
     count=0
@@ -65,9 +65,9 @@ mydb = mysql.connector.connect(host=RDS_HOST,database=DATABASE,user=USER,passwor
 cur=mydb.cursor()
 s="""INSERT INTO Data (Date , FacilityType , BedSize , Region , Manufacturer , Ticker , `Group` , Therapy , Anatomy ,SubAnatomy , ProductCategory , Quantity , AvgPrice , TotalSpend) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
 
-META_FOLDERS=os.listdir("/home/sourav/Desktop/WORK/Coss_internship/MAIN_PROJECT/META_FILES1/Data")
+META_FOLDERS=os.listdir("META_FILES1/Data")
 for folder in META_FOLDERS:
-    all_files=os.listdir("/home/sourav/Desktop/WORK/Coss_internship/MAIN_PROJECT/META_FILES1/Data/"+str(folder))
+    all_files=os.listdir("META_FILES1/Data/"+str(folder))
     print("############ "+str(folder)+"############")
     for i in range(len(all_files)):
         print("** "+str(all_files[i])+" **")
