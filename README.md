@@ -135,20 +135,10 @@ The proposed architecture is completely python based that has minimized the effo
   <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/fourth/mysqldb%20output.png">
 </p>
 
-***********************************************************
+# CONCLUSION
 
+* From the above results we can say that the Analyst Data {Empirical and Regression} takes <strong> 34.82 seconds (33.7+1.12)</strong> for giving out the excel file and storing it into remote MySQL Database.
 
-> META EXTRACTION
-<p align="center">
-  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/first.gif">
-</p>
-The above result is the output of <strong>Stage2 {META EXTRACTION}</strong>  which takes around <strong>56 seconds to process 19 excel files of 1.1 GB</strong>.This time varies between <strong>50 to 60 seconds</strong> depending upon the current load on the system.
-<br>
-<br>
+* From the above results we can say that the Data sheets of the excel file takes <strong>(12.94 minutes + 60.7 seconds)</strong> that is it takes <strong>13.95 minutes</strong> to upload all the data to MySQL DB.
 
-> DATA EXTRACTION
-
-<p align="center">
-  <img width="1000" height="450" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/second.gif">
-</p>
-The above result is the output of data extracted from the excel files.
+* <strong>Therefore the total time it takes to complete the cycle is 14.59 minutes to process all the 1.1 GB data </strong>
