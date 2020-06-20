@@ -82,7 +82,7 @@ The proposed architecture is completely python based that has minimized the effo
 </p>
 > Output and time required:
 <p align="center">
-  <img width="1000" height="50" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/first/first%20code%20timimg">
+  <img src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/first/first%20code%20timimg">
 </p>
 
 ### Python script second.py
