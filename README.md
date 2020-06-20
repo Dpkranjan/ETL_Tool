@@ -32,7 +32,7 @@ The proposed architecture is completely python based that has minimized the effo
 * > Jenkins for CI/CD of the application
 * > Docker to containerize Stage 2 for parallel extraction rather serial extraction for effiency. :sparkles:
 
-<img alt="HDL" src="https://github.com/srvk-99/ETL_Tool/blob/master/images/HDL.png"/>
+<img alt="HDL" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/hdl%20update.png"/>
 
 ## FUNCTIONING 
 * Raw excel file is placed on a folder through the FTP server.
