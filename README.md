@@ -36,11 +36,28 @@ The proposed architecture is completely python based that has minimized the effo
 <img alt="HDL" src="https://github.com/srvk-99/ETL_Tool/blob/master/gifs/hdl%20update.png"/>
 
 ## HOW TO USE THE TOOL 
-> git clone https://github.com/srvk-99/ETL_Tool.git
-> <strong>datasets folder</strong> : Here RAW datafiles are stored through a SFTP server.
-* Then *first.py* script runs which converts all the files into meta files (this step is the key step to make the process faster)
-* Then *second.py* script runs which extracts all the required data and then the excel files are created.
-* The output excel file data is then transferred to the database as well as processed output of the *data sheet* file
+> git clone https://github.com/srvk-99/ETL_Tool.git 
+
+* <strong>moduleCheckRun.py</strong> : This  python script ensures all required modules that are mentioned in *requirements.txt* 
+> python3 moduleCheckRun.py
+* <strong>db_initialisation.py</strong> : This python script ensures the tables *AnalystData* and *Data* are created in the SQL sever
+> python3 db_initialisation.py
+* <strong>envVarCheck.py</strong> : This python script ensures the environment variables related to AWS RDS are exported on the *.bashrc* file of the instance
+> python3 envVarCheck.py
+* <strong>datasets folder</strong> : Here all RAW datafiles are stored through a SFTP server.
+
+* <strong>first.py</strong> : This python script runs to convert all the files into meta files (this is the key step to make the process faster)
+> python3 first.py
+
+* <strong>second.py</strong> : This python script runs which extracts all the required data, excel file is created and the *AnalystData* table is also filled on AWS RDS
+> python3 second.py
+
+
+* <strong>third.py</strong> : This python script runs which extracts all the data from *data sheets* of the excel file
+> python3 second.py
+
+* <strong>fourth.py</strong> : This python script runs which extracts all the required data, excel file is created and the *AnalystData* table is also filled on AWS RDS
+> python3 second.py
 
 ## MVP RESULTS
 ### STAGE 2
